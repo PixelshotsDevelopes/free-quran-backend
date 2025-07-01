@@ -1,0 +1,21 @@
+### Simulate One-Time Donation via Webhook
+POST http://localhost:5000/simulate-webhook
+Content-Type: application/json
+
+{
+  "email": "amir.since1998@gmail.com",
+  "amount": 500,
+  "type": "One-Time"
+}
+
+###
+
+### Simulate Monthly Donation via Webhook
+POST http://localhost:5000/simulate-webhook
+Content-Type: application/json
+
+{
+  "email": "amir.since1998@gmail.com",
+  "amount": 500,
+  "type": "Monthly"
+}

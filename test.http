@@ -1,0 +1,8 @@
+### Create Stripe Checkout Session
+POST http://localhost:5000/create-checkout-session
+Content-Type: application/json
+
+{
+  "amount": 25,
+  "message": "Test donation from REST Client"
+}
